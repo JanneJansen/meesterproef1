@@ -1,0 +1,12 @@
+main {
+  display: flex;
+  justify-content: center;
+  overflow:hidden;
+}
+
+main > svg{
+  top:-0.05vw;
+  left:0;
+  right:0;
+  position: fixed;
+}

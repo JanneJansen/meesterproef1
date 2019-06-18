@@ -5,9 +5,9 @@ main {
 }
 
 main > svg{
-  transform:scale(1.05);
-  top:-0.5vw;
+  top:-0.05vw;
   left:0;
   right:0;
   position: fixed;
 }
+
