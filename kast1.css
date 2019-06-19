@@ -11,6 +11,15 @@ main > svg{
   position: fixed;
 }
 
+.titel{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    margin-left: -300px;;
+    margin-top: 30px;
+
+}
+
 /*
 .inzoom {
     animation: zoomin 2s infinite alternate; 
@@ -38,7 +47,7 @@ main > svg{
   font-family: montserrat;
   text-decoration: none;
   top: 450px;
-  left:1125px;
+  left:1102px;
   background-color:#dcdfff;
   padding: 6px 6px;
   border: solid 3px white;
