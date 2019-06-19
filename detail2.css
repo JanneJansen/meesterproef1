@@ -62,7 +62,8 @@ margin-top: -50px;
     letter-spacing: 0.7px;
     
     text-align: justify;
-    text-justify: inter-character;}
+    text-justify: inter-character;
+}
 
 
 .synthetisch { 
@@ -160,17 +161,6 @@ text-shadow:
 }
 
 
-.materiaal{
-font-family: "Refrigerator Deluxe";
-font-size: 5.8em;
-position: absolute;
-display: block;
-width: 1000px;
-height: 900px;
-margin-left: 610px;
-margin-top: 642px;
-color: #000DFF;
-}
 
 
 
