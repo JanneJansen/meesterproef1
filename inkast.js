@@ -69,3 +69,11 @@ jas.addEventListener("mouseout", function( event ) {
 jurk.onclick=function(){
 location.href = "detail1.html";
 };
+
+broek.onclick=function(){
+location.href = "detail2.html";
+};
+
+tshirt.onclick=function(){
+location.href = "detail3.html";
+};

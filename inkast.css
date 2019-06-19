@@ -23,11 +23,51 @@ overflow:hidden;
 
 
 svg  {
-    animation: zoomin 1s ;
+    animation: zoomin 1.5s forwards 1;
 }
 @keyframes zoomin {
   0%   {transform: scale(1.2);}
   100% {transform: scale(1);}
+}
+
+.menu1 {
+    animation: menuus 2s forwards 1;
+}
+@keyframes menuus {
+  0%   {opacity:0;}
+  100% {opacity:1;}
+}
+
+.menu2 {
+    animation: menuus 2s forwards 1;
+}
+@keyframes menuus {
+  0%   {opacity:0;}
+  100% {opacity:1;}
+}
+
+.menu3 {
+    animation: menuus 2s forwards 1;
+}
+@keyframes menuus {
+  0%   {opacity:0;}
+  100% {opacity:1;}
+}
+
+.menu4 {
+    animation: menuus 2s forwards 1;
+}
+@keyframes menuus {
+  0%   {opacity:0;}
+  100% {opacity:1;}
+}
+
+.menu5 {
+    animation: menuus 2s forwards 1;
+}
+@keyframes menuus {
+  0%   {opacity:0;}
+  100% {opacity:1;}
 }
 
 .text{
