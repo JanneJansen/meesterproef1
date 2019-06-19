@@ -25,9 +25,30 @@ body{
     height: 100%;
     position: absolute;
     margin-top:430px;
-    margin-left: -570px;
-    
+    margin-left: -570px;    
 }
+
+.plant{
+    position: absolute;
+     width: 35%;
+    height: 40%;
+    margin-left:1500px;
+    margin-top:-960px;
+    
+   
+
+}
+
+/*AFBEELDINGEN*/
+
+.water2{
+    height: 300px;
+    width: 330px;
+}
+ 
+    
+
+
 
 .plantaardig{
 position: absolute;
@@ -61,8 +82,8 @@ margin-top: -50px;
     font-size: 1.2em;
     letter-spacing: 0.7px;
     
-    text-align: justify;
-    text-justify: inter-character;}
+    
+    }
 
 
 .synthetisch { 
@@ -90,8 +111,7 @@ margin-top: -50px;
     font-family: "montserrat";
     font-size: 1.2em;
     letter-spacing: 0.7px;
-    text-align: justify;
-    text-justify: inter-character;
+    
 }
 
 
@@ -122,8 +142,8 @@ margin-top: -50px;
     font-family: "montserrat";
     font-size: 1.2em;
     letter-spacing: 0.7px;
-    text-align: justify;
-    text-justify: inter-character;
+    
+   
 }
 
 
@@ -231,6 +251,18 @@ color: #000DFF;
     }
 }
 
+.plant {
+    animation: slidein 2s forwards;
+}
 
+@keyframes slidein{
+    0%{
+        transform: translateX(0px);
+    }
+    
+    100%{
+        transform: translateX(-1530px);
+    }
+}
 
 

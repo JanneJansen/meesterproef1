@@ -85,3 +85,9 @@ location.href = "detail4.html";
 jas.onclick=function(){
 location.href = "detail5.html";
 };
+
+var foto  = document.querySelector('.logo');
+
+foto.addEventListener('click', function(){
+    location.href = "https://decorrespondent.nl/9505/handleiding-voor-een-duurzame-kledingkast/5004739830970-63c505a2";
+});
