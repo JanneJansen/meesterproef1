@@ -77,3 +77,11 @@ location.href = "detail2.html";
 tshirt.onclick=function(){
 location.href = "detail3.html";
 };
+
+trui.onclick=function(){
+location.href = "detail4.html";
+};
+
+jas.onclick=function(){
+location.href = "detail5.html";
+};
