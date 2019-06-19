@@ -81,6 +81,10 @@ svg  {
   100% {opacity:1;}
 }
 
+.none{
+    animation: none;
+}
+
 .text{
 position: absolute;
 font-family: "Refrigerator Deluxe";
