@@ -20,3 +20,14 @@ overflow:hidden;
     position: absolute;
     margin-top: 10px;
 }
+
+
+svg {
+    animation: zoomin 1s ;
+}
+@keyframes zoomin {
+  0%   {transform: scale(1.2);}
+  100% {transform: scale(1);}
+
+
+}
