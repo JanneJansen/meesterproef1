@@ -22,12 +22,80 @@ overflow:hidden;
 }
 
 
-svg {
+svg  {
     animation: zoomin 1s ;
 }
 @keyframes zoomin {
   0%   {transform: scale(1.2);}
   100% {transform: scale(1);}
+}
+
+.text{
+position: absolute;
+font-family: "Refrigerator Deluxe";
+letter-spacing: 2px;
+color: #000DFF;
+width: 600px;
+font-size: 4em;
+text-align: center;
+top:60%;
+left: 60%;
+}
+
+
+.menu1{
+position: absolute;
+margin-top: 250px;
+margin-left: 105px; 
+font-family: "Helvetica-bold";
+font-size:1.3em;
+color: white; 
 
 
 }
+
+
+.menu2{
+position: absolute;
+margin-top: 370px;
+margin-left: 195px; 
+transform: rotate(-87deg);
+font-family: "Helvetica-bold"; 
+font-size: 4em;
+color: white;   
+}
+
+.menu3{
+position: absolute;
+margin-top: 155px;
+margin-left: 670px; 
+font-family: "Helvetica-bold"; 
+font-size: 1.65em;
+color: white;   
+}
+
+.menu4{
+position: absolute;
+margin-top: 180px;
+margin-left: 930px; 
+font-family: "Helvetica-bold"; 
+font-size: 1.8em;
+color: white;   
+}
+
+
+.menu5{
+position: absolute;
+margin-top: 250px;
+margin-left: 1400px; 
+transform: rotate(67deg);
+font-family: "Helvetica-bold"; 
+font-size: 3em;
+color: white;   
+}
+
+
+
+
+
+
