@@ -1,4 +1,4 @@
-main {
+body {
   display: flex;
   justify-content: center;
   overflow:hidden;
@@ -35,17 +35,44 @@ main > svg{
   position: absolute;
   z-index: 20;
   cursor: pointer;
-  font-family: helvetica;
+  font-family: montserrat;
   text-decoration: none;
-  
+  top: 450px;
+  left:1125px;
+  background-color:#dcdfff;
+  padding: 6px 6px;
+  border: solid 3px white;
+  font-size: 1.6em; 
 
 }
+.openen:hover{
+
+animation: draai 0.1s 5;   
+}
   
+@keyframes draai{
+    
+    0%{
+        transform: rotate(-7deg);
+    }
+    
+     50%{
+        transform: rotate(7deg);
+    }
+    
+    
+     100%{
+        transform: rotate(0deg);
+    }    
+}
+
 a {
     text-decoration: none; 
-    color: blue;
+    color: white;
+    
 }
 
 a:hover{
     color: #bec3e5;
+
 }

@@ -1,0 +1,22 @@
+body{
+background-color: #FFF2D7;
+display: flex;
+overflow:hidden;
+
+}
+
+.svg1 {
+    width: 1680px;
+    height: 900px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -8px;
+}
+
+
+.svg2 {
+    width: 1680px;
+    height: 900px;
+    position: absolute;
+    margin-top: 10px;
+}
