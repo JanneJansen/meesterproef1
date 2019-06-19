@@ -161,6 +161,17 @@ text-shadow:
 }
 
 
+.materiaal{
+font-family: "Refrigerator Deluxe";
+font-size: 5.8em;
+/*position: absolute;*/
+display: block;
+width: 1000px;
+height: 900px;
+margin-left: 60px;
+margin-top: 642px;
+color: #000DFF;
+}
 
 
 
