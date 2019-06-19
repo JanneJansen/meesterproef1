@@ -11,3 +11,41 @@ main > svg{
   position: fixed;
 }
 
+/*
+.inzoom {
+    animation: zoomin 2s infinite alternate; 
+}
+
+ @keyframes zoomin {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.5);}
+  100% {transform: scale(1);}
+       
+}
+*/
+
+/*
+#kastopen > svg {
+    z-index: 1000;
+}
+*/
+
+.openen{
+
+  position: absolute;
+  z-index: 20;
+  cursor: pointer;
+  font-family: helvetica;
+  text-decoration: none;
+  
+
+}
+  
+a {
+    text-decoration: none; 
+    color: blue;
+}
+
+a:hover{
+    color: #bec3e5;
+}
