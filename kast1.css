@@ -15,9 +15,14 @@ main > svg{
     position: absolute;
     width: 50%;
     height: 50%;
-    margin-left: -250px;;
+    margin-left: -680px;;
     margin-top: 33px;
 
+}
+
+.k{
+    position: absolute;
+    margin-left: 100px;
 }
 
 /*
